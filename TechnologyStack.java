@@ -6,6 +6,7 @@ public class TechnologyStack {
     private final String javaFX = "JavaFX";
     private final String git = "Git";
     private final String oop = "ООП";
+    private final String sql = "SQL (MySQL)";
     private final String google = "ok, Google - продвинутый";
 
     public String getJava() {
@@ -22,6 +23,10 @@ public class TechnologyStack {
 
     public String getOop() {
         return oop;
+    }
+
+    public String getSql() {
+        return sql;
     }
 
     public String getGoogle() {
