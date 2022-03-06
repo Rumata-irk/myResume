@@ -47,6 +47,7 @@ public class Resume {
         System.out.println("\t" + ts.getGit() + " - " + TechnologyStack.BEGINNER);
         System.out.println("\t" + ts.getOop() + " - " + TechnologyStack.BEGINNER);
         System.out.println("\t" + ts.getSql() + " - " + TechnologyStack.BEGINNER);
+        System.out.println("\t" + ts.getJunit() + " - " + TechnologyStack.BEGINNER);
         System.out.println("\t" + ts.getGoogle());
         printStars();
     }
