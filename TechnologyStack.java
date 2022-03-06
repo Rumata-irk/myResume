@@ -7,6 +7,7 @@ public class TechnologyStack {
     private final String git = "Git";
     private final String oop = "ООП";
     private final String sql = "SQL (MySQL)";
+    private final String junit = "Модульное тестирование (JUnit)";
     private final String google = "ok, Google - продвинутый";
 
     public String getJava() {
@@ -27,6 +28,10 @@ public class TechnologyStack {
 
     public String getSql() {
         return sql;
+    }
+
+    public String getJunit() {
+        return junit;
     }
 
     public String getGoogle() {
